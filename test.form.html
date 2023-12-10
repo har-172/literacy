@@ -1,22 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>クエリパラメータを送信</title>
-</head>
-<body>
-
-<form id="quizForm" action="https://yabuki-x.pm-chiba.tech/quiz.php" method="get">
-  <input type="hidden" name="number" value="12345">
-  <input type="submit" value="送信">
-</form>
-
-<script>
-// フォームを自動的に送信
-document.getElementById('quizForm').submit();
-</script>
-
-</body>
+  <head>
+    <title>Form</title>
+  </head>
+  <body>
+<form action="https://yabuki-x.pm-chiba.tech/quiz.php” method="GET">
+　<input type="hidden" name="number" value="12345">
+  <input type="submit" value="Submit">
+  </form>
+  </body>
 </html>
-
